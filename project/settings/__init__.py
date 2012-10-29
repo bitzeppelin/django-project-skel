@@ -1,5 +1,7 @@
-# Django settings for project_name project.
+# Django settings for {{ project_name }} project.
 from os.path import dirname, join, realpath
+import os
+
 
 ROOT_DIR = realpath(join(dirname(__file__), '..', '..'))
 PROJECT_DIR = realpath(join(dirname(__file__), '..'))
@@ -107,10 +109,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = 'project.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -131,7 +133,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
