@@ -1,0 +1,6 @@
+PIL
+django
+django-admin-tools
+psycopg2
+unidecode
+django_extensions
