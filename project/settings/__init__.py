@@ -166,6 +166,8 @@ LOGGING = {
     }
 }
 
+DEFAULT_CACHE_TIMEOUT = 5
+
 try:
     LOCAL_SETTINGS
 except NameError:
