@@ -1,0 +1,50 @@
+/** 
+ * theming styles
+ * 
+ */
+
+#header {
+    background: url(../images/admin-tools-supermerc.png) 0 0 repeat-x;
+}
+
+#header #branding h1 {
+    margin: 0;
+    padding: 0px 10px;
+    text-indent: -9999px;
+    background: transparent url(../images/logo-supermerc.png) 10px 5px no-repeat;
+    height: 40px;
+    width: 160px;
+}
+
+div.breadcrumbs {
+    display: block;
+    padding: 10px 15px;
+    border: 0;
+    background-position: 0 -8px;
+    border-bottom: 1px solid #ededed;
+}
+
+div.breadcrumbs a {
+    display: inline;
+}
+
+/*
+.dashboard-module-content a {
+    color: #005500;
+}
+
+a:link, a:visited {
+    color: #005500;
+    text-decoration: none;
+}
+
+
+#changelist-filter li.selected a {
+    color: #005500 !important;
+}
+
+td, #changelist table tbody th {
+    border-left: 1px solid #009900;
+}
+
+*/
