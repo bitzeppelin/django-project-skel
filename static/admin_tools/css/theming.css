@@ -4,16 +4,16 @@
  */
 
 #header {
-    background: url(../images/admin-tools-supermerc.png) 0 0 repeat-x;
+    background: url(../images/admin-tools.png) 0 0 repeat-x;
 }
 
 #header #branding h1 {
     margin: 0;
-    padding: 0px 10px;
+    padding: 5px 10px;
     text-indent: -9999px;
-    background: transparent url(../images/logo-supermerc.png) 10px 5px no-repeat;
-    height: 40px;
-    width: 160px;
+    background: transparent url(../images/django.png) 10px 5px no-repeat;
+    height: 31px;
+    width: 93px;
 }
 
 div.breadcrumbs {
@@ -27,24 +27,3 @@ div.breadcrumbs {
 div.breadcrumbs a {
     display: inline;
 }
-
-/*
-.dashboard-module-content a {
-    color: #005500;
-}
-
-a:link, a:visited {
-    color: #005500;
-    text-decoration: none;
-}
-
-
-#changelist-filter li.selected a {
-    color: #005500 !important;
-}
-
-td, #changelist table tbody th {
-    border-left: 1px solid #009900;
-}
-
-*/
